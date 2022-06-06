@@ -9,7 +9,6 @@ app.get('/' ,(req,res)=>{
 
 
 
-
 app.get('/tip/:num1/:num2',(req,res)=>{
 console.log(req.params.num2 , req.params.num1)
 let tip = (Number(req.params.num2)*Number(req.params.num1))/100
